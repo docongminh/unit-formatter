@@ -1,0 +1,37 @@
+{
+  "name": "unit-formatter",
+  "version": "1.0.0",
+  "description": "A minimum tools support parse/format unit in multi blockchain-network( ETH, BSC, SOL,...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docongminh/unit-formatter.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solana",
+    "bsc",
+    "parse/format",
+    "unit"
+  ],
+  "author": "@minhdocs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docongminh/unit-formatter/issues"
+  },
+  "homepage": "https://github.com/docongminh/unit-formatter#readme",
+  "dependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@solana/web3.js": "^1.43.4",
+    "ethers": "^5.6.8",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}

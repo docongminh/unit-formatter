@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "declarationDir": "declarations",
+    "emitDeclarationOnly": true,
+    "stripInternal": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false
+  },
+  "include": ["./src/*"]
+}
